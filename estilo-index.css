@@ -24,7 +24,8 @@ header{
                 color: rgb(255, 255, 255);
                 letter-spacing: 4px;
                 font-size: 30px; 
-                align-items: center;         
+                align-items: center;  
+                Margin: 10px 0 0 10px
                 }
            .titulo a{
                color: rgb(255, 255, 255);
