@@ -221,8 +221,7 @@ footer{
         margin: 15px auto 0 auto
     }
     .menu-footer{
-Margin-left:auto;
-Margin-right:auto
+Margin-left:-15px
 }
     .info-footer p{
         text-align: center;
