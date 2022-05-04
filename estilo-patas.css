@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -34,4 +35,42 @@ p{
 ul li{
     font-size: 25px;
 }
+=======
+body{
+    margin: 0;
+    padding: 0;
+    }
+.articulo{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+p{
+    margin: 10px auto 10px auto;
+}
+.articulo img{
+    width: 100%;
+    border-radius: 30px;
+}
+.articulo ul li{
+    margin-left: -50px;
+}
+@media (min-width: 750px){
+    .articulo img{
+        width: 30%;
+    }
+.articulo{
+    display: flex;
+    flex-direction:column;
+}
+p{
+    font-size: 30px;
+    width: 50%;
+}
+ul li{
+    font-size: 25px;
+}
+>>>>>>> 26d07fa0db906d527ee90c8f1c2508426c9bfe8b
 }
