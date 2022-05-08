@@ -222,22 +222,6 @@ margin: 10px auto 0 auto;
         padding: 0;
         margin: 8px;
         font-size: 20px;
-    }
-
-    #imagenfondo{
- position: absolute;
- top: -255px;
- z-index: -1;
-}
-#imagenfondo1{
-    position: absolute;
-    top: 270px;
-    z-index: -1;}
-.textoimagen{
-    color:antiquewhite
-}
-.imagen1{
-    mix-blend-mode:multiply;
 }
 .cont-whatsapp img{
     width: 60px;
@@ -253,6 +237,10 @@ margin: 10px auto 0 auto;
     width: 80%;
     margin: 40px auto 40px auto;
 
+}
+.textoimagen{
+    text-align: center;
+    padding-top: 25px;
 }
 
 }
