@@ -1,5 +1,7 @@
 body{
     height: auto;
+    
+   
 }
 .card{
     margin-left: auto;
@@ -26,11 +28,9 @@ header{
     .titulo-1{
         font-size: 50px;
     }
-    .articulo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+   
+    
+    
     div{
         align-items: center;
         justify-content: center;
@@ -42,9 +42,10 @@ text-align: center;
 font-size: 30px;
 }
 .card{
-    display: flexbox;
+    display: flex;
 flex-direction:row;
 align-items: center;
+justify-content: center;      
 min-width: 800px;
 border-radius: 50px;
 border: 0px;
@@ -54,6 +55,15 @@ border: 0px;
   border-radius: 50px;
 }
 .card-body p{
-margin: 5px;
+margin: 5px;}
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;}
+
+    section{
+        margin: 0 auto 0 auto;
 }
 }

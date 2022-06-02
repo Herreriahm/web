@@ -14,7 +14,6 @@ body{
 .iconomenu{
     width: 52px;
 }
-
 p{
     margin: 10px auto 10px auto;
 }
@@ -43,4 +42,10 @@ p{
 ul li{
     font-size: 25px;
 }
+
+    .articulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin: 0 0 0 0 ;}
 }
