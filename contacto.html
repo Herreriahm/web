@@ -10,32 +10,53 @@
     <title>H&M MUEBLES</title>
 </head>
 <body>
-    <header>
-        <h1> COMPLETA LOS DATOS Y EL PRODUCTO SERA ENVIADO A LA BREVEDAD </H1>
-       </header>
-       <section>
+  <div class="Macetero1">
+    <div class="card" style="width: 18rem;">
+      <img src="https://i.pinimg.com/474x/b9/26/49/b926492b0f9201f8f3d4e3256a8e7fa1.jpg" class="card-img-top" id="img-des" alt="Foto escalador">
+      <div class="card-body" id="text-des">
+      <nav></nav><h5 class="card-title"><strong>Macetero estilo industrial</strong> </h5>
+         <p class="card-text">
+          <p>Medidas: 100cm alto, 60cm ancho</p>
+          <p>Precio: $2.500</p>
+          <p>Los envíos se realiza dentro de las 72hs</p>
+          <p>A continuación ingrese sus datos para realizar la compra.</p>
+      </div>
+  </div>
+
+       <section class="form1">
+       
+        <div class="Formulario">
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mknywzwn" method="post">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">NOMBRE</label>
-              <input type="text" name="name" id="nombre" placeholder="First and Last" required="">
-                <label for="full-name">APELLIDO</label>
-              <input type="text" name="name" id="apellido" placeholder="First and Last" required="">
-                <label for="full-name">DNI</label>
-              <input type="text" name="name" id="dni" placeholder="First and Last" required="">
-                <label for="full-name">DIRECCION</label>
-              <input type="text" name="name" id="direccion" placeholder="First and Last" required="">
-                <label for="full-name">Nº DE TARJETA</label>
-              <input type="text" name="name" id="tarjeta" placeholder="First and Last" required="">
-                <label for="full-name">CODIGO DE 3 DIGITOS (ubicado al dorso de la tarjeta)</label>
-              <input type="text" name="name" id="codigo" placeholder="First and Last" required="">
-              <label for="email-address">Email</label>
-              <input type="email" name="_replyto" id="email" placeholder="email@domain.tld" required="">
-              <label for="message">COMENTARIOS</label>
-              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Submit">
-          </form><style>/* reset */
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">NOMBRE</label>
+            <input type="text" name="name" id="nombre" placeholder="Introduce tu nombre" required="">
+              <label for="full-name">APELLIDO</label>
+            <input type="text" name="name" id="apellido" placeholder="Introduce tu apellido" required="">
+              <label for="full-name">DNI</label>
+            <input type="number" name="name" id="dni" placeholder="Dni" required="">
+              <label for="full-name">DIRECCIÓN</label>
+            <input type="text" name="name" id="direccion" placeholder="Dirección y localidad" required="">
+             <label for="full-name">TELÉFONO</label>
+            <input type="number" name="name" id="direccion" placeholder="Teléfono" required="">
+              <label for="full-name">Nº DE TARJETA (crédito o débito)</label>
+            <input type="text" name="name" id="tarjeta" placeholder="Estos datos solo podrán ser vistos por entidad bancaria" required="">
+            <label for="full-name">CUOTAS (hasta 3 cuotas sin interés)</label>
+            <select name="CUOTAS" >
+   <option value="L">1</option>
+   <option value="M">2</option>
+   <option value="X">3</option>
+
+</select>
+              <label for="full-name">CÓDIGO DE 3 DÍGITOS (ubicado al dorso de la tarjeta)</label>
+            <input type="text" name="name" id="codigo" placeholder="Estos datos solo podrán ser vistos por entidad bancaria" required="">
+            <label for="email-address">CORREO</label>
+            <input type="email" name="_replyto" id="email" placeholder="Correo electrónico" required="">
+            <label for="message">COMENTARIOS</label>
+            <textarea rows="5" name="message" id="message" placeholder="comentarios y/o consultas" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Enviar">
+        </form></div><style>/* reset */
           #fs-frm input,
           #fs-frm select,
           #fs-frm textarea,
@@ -50,8 +71,9 @@
             border-radius: 0;
             display: block;
             width: 100%;
-            padding: 0;
+            padding: 10px;
             margin: 0;
+            margin-top: 1px;
             -webkit-appearance: none;
             -moz-appearance: none;
           }
